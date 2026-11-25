@@ -17,6 +17,12 @@ npm test
 npm run build
 ```
 
+## Despliegue en Render
+
+El repositorio incluye `render.yaml` para crear el sitio estático como
+`pip-backgammon`. Render ejecutará `npm ci && npm run build` y publicará el
+directorio `dist`.
+
 ## Alcance de esta versión
 
 - Motor puro de reglas: posición inicial, tirada de apertura, movimientos legales,
